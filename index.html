@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Translation Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="splash">
+    <div class="splash-content">
+        <h1>Welcome to our site</h1>
+        <p class="author-name">Shahd Ayaman</p>
+        <div class="loader"></div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="header">
+        <img src="logo1.jpeg" class="logo">
+        <img src="logo2.jpeg" class="logo">
+        <h1>Translation Website</h1>
+    </div>
+
+    
+<textarea id="inputText" placeholder="Enter your text"></textarea>
+
+    <div class="row">
+        <select id="sourceLang">
+            <option value="en">English</option> 
+            <option value="ar">Arabic</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+            <option value="de">German</option>
+            <option value="it">Italian</option>
+        </select>
+
+        <select id="targetLang">
+            <option value="ar">Arabic</option>
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+            <option value="de">German</option>
+            <option value="it">Italian</option>
+        </select>
+    </div>
+
+    <h3>Result:</h3>
+    <div id="outputText"></div>
+
+    <div class="actions">
+        <button id="swapBtn">🔁 Swap</button>
+        <button id="copyBtn">📋 Copy</button>
+        <button id="darkBtn">🌙 Dark Mode</button>
+    </div>
+
+    <p class="badge">Smart Multi-Language Translation App</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
